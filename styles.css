@@ -1,0 +1,514 @@
+/* Clickable project cards (anchor version) */
+a.project-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.project-card:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.project-card .project-links {
+  font-size: 0.78rem;
+  color: #c74310;
+  font-weight: 500;
+}
+
+/* ============================================================
+   RESEARCH PAGE
+   ============================================================ */
+
+.research-vision {
+  max-width: 700px;
+  margin-bottom: 1.75rem;
+}
+
+.research-vision p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* Interest pills */
+.interest-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0.25rem 0 2rem;
+}
+
+.interest-pill {
+  font-size: 0.78rem;
+  padding: 4px 13px;
+  border-radius: 100px;
+  background: #fff3e0;
+  color: #993c1d;
+  border: 0.5px solid #f0997b;
+  font-weight: 500;
+}
+
+/* Tighten spacing between research section headings and their content grids */
+.research-vision + h2,
+.interest-pills + h2 {
+  margin-top: 0.5rem;
+}
+
+h2 + .project-grid,
+h2 + .pub-list {
+  margin-top: 0.75rem;
+}
+
+/* Project cards grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin-bottom: 1rem;
+}
+
+/* Base card — plain white */
+.project-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  border-color: #f0997b;
+  box-shadow: 0 2px 16px rgba(199, 67, 16, 0.09);
+}
+
+/* Card with background image */
+.project-card.has-bg {
+  background-image: var(--card-bg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 260px;
+  border: none;
+}
+
+/* Dark gradient overlay so text stays readable */
+.project-card.has-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(30,10,0,0.82) 55%, rgba(30,10,0,0.18) 100%);
+  border-radius: 10px;
+  z-index: 0;
+}
+
+/* Inner content sits above overlay */
+.project-card .card-inner {
+  position: relative;
+  z-index: 1;
+  padding: 1.1rem 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* On image cards, push content to bottom */
+.project-card.has-bg .card-inner {
+  justify-content: flex-end;
+  padding-top: 2rem;
+}
+
+.project-tag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #c74310;
+  margin-bottom: 0.45rem;
+}
+
+.project-card.has-bg .project-tag {
+  color: #ffb380;
+}
+
+/* Let SCSS handle h3 color on plain cards; override to white on image cards */
+.project-card h3 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 0.5rem;
+}
+
+.project-card.has-bg h3 {
+  color: #fff !important;
+}
+
+.project-card p {
+  font-size: 0.83rem;
+  color: #555;
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
+}
+
+.project-card.has-bg p {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+.project-links a {
+  font-size: 0.78rem;
+  color: #c74310;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-card.has-bg .project-links a {
+  color: #ffb380;
+}
+
+.project-links a:hover {
+  color: #9e370d;
+}
+
+/* Publications list */
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.pub-item {
+  background: #fffaf3;
+  border: 1px solid #f0e8d8;
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.pub-main {
+  flex: 1;
+}
+
+.pub-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #222;
+  line-height: 1.45;
+  margin-bottom: 0.2rem;
+}
+
+.pub-authors {
+  font-size: 0.78rem;
+  color: #777;
+  margin-bottom: 0.3rem;
+}
+
+.pub-explainer {
+  font-size: 0.8rem;
+  color: #c74310;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.pub-year {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #aaa;
+  white-space: nowrap;
+  padding-top: 2px;
+}
+
+/* Aside reads */
+.aside-reads {
+  font-size: 0.82rem;
+  color: #777;
+  border-left: 3px solid #f0997b;
+  padding-left: 1rem;
+  margin-top: 1.5rem;
+  line-height: 1.9;
+}
+
+.aside-reads a {
+  color: #c74310;
+}
+
+/* ============================================================
+   SCIENCE COMMUNICATION PAGE
+   ============================================================ */
+
+.scicomm-intro {
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 680px;
+  margin-bottom: 1.75rem;
+}
+
+/* Filter bar */
+.post-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.post-filter-btn {
+  font-size: 0.78rem;
+  padding: 5px 15px;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  background: none;
+  cursor: pointer;
+  color: #666;
+  transition: all 0.12s;
+  font-family: 'Inter', sans-serif;
+}
+
+.post-filter-btn:hover {
+  border-color: #c74310;
+  color: #c74310;
+}
+
+.post-filter-btn.active {
+  background: #c74310;
+  color: #fff3e0;
+  border-color: #c74310;
+}
+
+/* Posts grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+/* Base post card */
+.post-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.post-card:hover {
+  border-color: #f0997b;
+  box-shadow: 0 2px 16px rgba(199, 67, 16, 0.09);
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Card with background image */
+.post-card.has-bg {
+  background-image: var(--card-bg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 240px;
+  border: none;
+}
+
+.post-card.has-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(30,10,0,0.80) 55%, rgba(30,10,0,0.15) 100%);
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.post-card .card-inner {
+  position: relative;
+  z-index: 1;
+  padding: 1.1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.post-card.has-bg .card-inner {
+  justify-content: flex-end;
+  padding-top: 2rem;
+}
+
+.post-type-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.55rem;
+}
+
+.post-type-story    { color: #185fa5; }
+.post-type-phd      { color: #3b6d11; }
+.post-type-explainer { color: #993c1d; }
+
+.post-card.has-bg .post-type-story,
+.post-card.has-bg .post-type-phd,
+.post-card.has-bg .post-type-explainer {
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 0.1em;
+}
+
+.post-card h3 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 0.4rem;
+}
+
+.post-card.has-bg h3 {
+  color: #fff !important;
+}
+
+.post-card p {
+  font-size: 0.83rem;
+  color: #666;
+  line-height: 1.65;
+}
+
+.post-card.has-bg p {
+  color: rgba(255,255,255,0.82) !important;
+}
+
+.post-meta {
+  font-size: 0.72rem;
+  color: #aaa;
+  margin-top: 0.75rem;
+}
+
+.post-card.has-bg .post-meta {
+  color: rgba(255,255,255,0.55);
+}
+
+/* ============================================================
+   NEWS & EVENTS  (used in news.qmd and index.qmd teaser)
+   ============================================================ */
+
+.news-feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 0 1.25rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #f0e8d8;
+  align-items: start;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 3px;
+}
+
+.news-month {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #c74310;
+  line-height: 1.1;
+  font-family: 'Playfair Display', serif;
+}
+
+.news-year {
+  display: block;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.news-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 2px 9px;
+  border-radius: 100px;
+  margin-bottom: 0.45rem;
+}
+
+.news-tag-event     { background: #e1f5ee; color: #085041; }
+.news-tag-milestone { background: #faeeda; color: #633806; }
+.news-tag-paper     { background: #e6f1fb; color: #0c447c; }
+.news-tag-media     { background: #fbeaf0; color: #72243e; }
+
+/* Let SCSS theme handle h3 color — only override size/spacing */
+.news-content h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 0.3rem;
+}
+
+.news-content p {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.65;
+}
+
+.news-img {
+  margin-top: 0.85rem;
+}
+
+.news-img img {
+  max-width: 340px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+/* Compact variant for index.qmd teaser */
+.news-feed-compact .news-item {
+  padding: 0.9rem 0;
+}
+
+/* Card with image strip at top, text on plain white below */
+.project-card.card-with-header-img,
+.post-card.card-with-header-img {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card.card-with-header-img:hover,
+.post-card.card-with-header-img:hover {
+  border-color: #f0997b;
+  box-shadow: 0 2px 16px rgba(199, 67, 16, 0.09);
+}
+
+img.card-header-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  flex-shrink: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+.project-card.card-with-header-img .card-inner,
+.post-card.card-with-header-img .card-inner {
+  padding: 1rem 1.25rem 1rem;
+  justify-content: flex-start;
+}

@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  title: "Kobe De Maeyer"
+
+  sidebar:
+    logo: "images/personal/profile_picture_USA.jpeg"
+    pinned: true
+    align: center
+    style: floating
+    tools:
+      - icon: envelope
+        href: "mailto:k.h.m.demaeyer@uu.nl"
+      - icon: github
+        href: "https://github.com/Kobe-De-Maeyer"
+      - icon: globe
+        href: "https://scholar.google.ca/citations?user=7DX4s6gAAAAJ&hl=en"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/kobe-de-maeyer/"
+      - icon: house-door-fill
+        href: "https://www.uu.nl/medewerkers/KHMdeMaeyer1"
+      - icon: person-badge
+        href: "https://orcid.org/0009-0000-7704-6187"
+
+  navbar:
+    left:
+      - text: About
+        href: index.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Research
+        href: research.qmd
+      - text: Science communication
+        href: scicomm.qmd
+      - text: News & events
+        href: news.qmd
+      - text: Contact
+        href: contact.qmd
+
+format:
+  html:
+    theme:
+      - custom-theme.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-newwindow: true
+    number-sections: false

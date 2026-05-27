@@ -1,0 +1,52 @@
+---
+title: "Science communication"
+sidebar: false
+format: html
+---
+
+```{=html}
+<div class="post-filter-bar">
+  <button class="post-filter-btn active" onclick="filterPosts('all', this)">All</button>
+  <button class="post-filter-btn" onclick="filterPosts('story', this)">Fiction stories</button>
+  <button class="post-filter-btn" onclick="filterPosts('phd', this)">PhD life and research updates</button>
+  <button class="post-filter-btn" onclick="filterPosts('explainer', this)">Explainers</button>
+</div>
+
+<!-- POST CARDS
+     To add a background image to any card, add has-bg class and set --card-bg:
+       <a class="post-card has-bg" data-type="story" href="#" style="--card-bg: url('images/your-photo.jpg')">
+     Without image, just use:
+       <a class="post-card" data-type="story" href="#"> -->
+
+<div class="posts-grid" id="posts-grid">
+
+  <a class="post-card card-with-header-img" data-type="phd" href="posts/egu2026.html">
+   <img class="card-header-img" src="images/personal/EGU_group.jpeg" alt="EGU2026">
+    <div class="card-inner">
+      <div class="post-type-label post-type-phd">PhD life and research updates</div>
+      <h3>Updates from EGU2026 General Assembly </h3>
+      <p>Some of my personal highlights and take-aways from this year's conference edition.</p>
+    </div>
+  </a>
+  
+  <a class="post-card card-with-header-img" data-type="phd" href="posts/meettheprofessor2026.html">
+   <img class="card-header-img" src="images/personal/meettheprofessor2026.jpg" alt="meettheprofessor">
+    <div class="card-inner">
+      <div class="post-type-label post-type-phd">PhD life and research updates</div>
+      <h3>Meet The Professor 2026 </h3>
+      <p>Teaching the concept of tipping points and climate change to 10-year olds.</p>
+    </div>
+  </a>
+
+</div>
+
+<script>
+function filterPosts(type, btn) {
+  document.querySelectorAll('.post-filter-btn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  document.querySelectorAll('.post-card').forEach(function(card) {
+    card.style.display = (type === 'all' || card.getAttribute('data-type') === type) ? '' : 'none';
+  });
+}
+</script>
+```

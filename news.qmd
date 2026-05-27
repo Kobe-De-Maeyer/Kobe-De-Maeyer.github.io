@@ -1,0 +1,71 @@
+---
+title: "News & events"
+sidebar: false
+format: html
+---
+
+```{=html}
+<!-- News & Events feed — add items chronologically, newest first.
+     Tags: news-tag-event / news-tag-milestone / news-tag-paper / news-tag-media
+     Images: add an <img> tag inside .news-img, or remove the .news-img div entirely. -->
+
+<div class="news-feed">
+
+ <div class="news-item">
+    <div class="news-date">
+      <span class="news-month">May</span>
+      <span class="news-year">2026</span>
+    </div>
+    <div class="news-content">
+      <span class="news-tag news-tag-event">Event</span>
+      <h3>EGU2026 General Assembly in Vienna</h3>
+      <p> Presented <a href="https://meetingorganizer.copernicus.org/EGU26/EGU26-9787.html">my work</a> in the session, Earth resilience in the Anthropocene: from tipping points to planetary boundaries and human-Earth system interactions</p>
+      <div class="news-img">
+  <img src="images/personal/EGU_presentation.jpeg" alt="Brief description">
+      </div>
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">
+      <span class="news-month">Sep</span>
+      <span class="news-year">2025</span>
+    </div>
+    <div class="news-content">
+      <span class="news-tag news-tag-milestone">Milestone</span>
+      <h3>Started PhD at the Copernicus Institute, Utrecht University</h3>
+      <p>
+        Officially joined the <a href="https://embracer.nl/" target="_blank">EMBRACER consortium</a> as a doctoral researcher, working on AMOC–Amazon tipping interactions and their spatial heterogeneities under the supervision of Prof. Max Rietkerk and Dr. Arie Staal.
+      </p>
+      <div class="news-img">
+  <img src="images/personal/Utrecht.jpeg" alt="Brief description">
+      </div>
+    </div>
+  </div>
+
+  <!-- TEMPLATE — copy and paste this block to add a new item:
+
+  <div class="news-item">
+    <div class="news-date">
+      <span class="news-month">Mon</span>
+      <span class="news-year">YYYY</span>
+    </div>
+    <div class="news-content">
+      <span class="news-tag news-tag-event">Event</span>
+      <h3>Title here</h3>
+      <p>Short description — 2 to 4 sentences. No full blog post needed.</p>
+      <div class="news-img">
+        <img src="Images/Personal/your-photo.jpg" alt="Description">
+      </div>
+    </div>
+  </div>
+
+  Available tag classes:
+    news-tag-event      → green  (conferences, summer schools, field work)
+    news-tag-milestone  → amber  (PhD start, defenses, awards)
+    news-tag-paper      → blue   (new publications, preprints)
+    news-tag-media      → pink   (interviews, podcasts, public talks)
+  -->
+
+</div>
+```
