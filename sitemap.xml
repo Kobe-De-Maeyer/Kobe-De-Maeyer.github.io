@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Kobe-De-Maeyer.github.io/about.html</loc>
-    <lastmod>2026-05-28T11:12:13.539Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Kobe-De-Maeyer.github.io/contact.html</loc>
-    <lastmod>2026-05-28T11:12:13.539Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Kobe-De-Maeyer.github.io/index.html</loc>
-    <lastmod>2026-05-28T11:12:13.574Z</lastmod>
-  </url>
-  <url>
     <loc>https://Kobe-De-Maeyer.github.io/projects/amoc-amazon.html</loc>
-    <lastmod>2026-05-28T11:12:13.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Kobe-De-Maeyer.github.io/projects/crop-models.html</loc>
-    <lastmod>2026-05-28T11:12:13.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Kobe-De-Maeyer.github.io/posts/egu2026.html</loc>
-    <lastmod>2026-05-28T11:12:13.574Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Kobe-De-Maeyer.github.io/scicomm.html</loc>
-    <lastmod>2026-05-28T11:12:13.578Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Kobe-De-Maeyer.github.io/posts/meettheprofessor2026.html</loc>
-    <lastmod>2026-05-28T11:12:13.576Z</lastmod>
+    <lastmod>2026-05-28T11:16:31.664Z</lastmod>
   </url>
   <url>
     <loc>https://Kobe-De-Maeyer.github.io/projects/toad.html</loc>
-    <lastmod>2026-05-28T11:12:13.577Z</lastmod>
+    <lastmod>2026-05-28T11:16:31.664Z</lastmod>
   </url>
   <url>
-    <loc>https://Kobe-De-Maeyer.github.io/cv.html</loc>
-    <lastmod>2026-05-28T11:12:13.539Z</lastmod>
+    <loc>https://Kobe-De-Maeyer.github.io/posts/egu2026.html</loc>
+    <lastmod>2026-05-28T11:16:31.659Z</lastmod>
   </url>
   <url>
     <loc>https://Kobe-De-Maeyer.github.io/news.html</loc>
-    <lastmod>2026-05-28T11:12:13.574Z</lastmod>
+    <lastmod>2026-05-28T11:16:31.659Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Kobe-De-Maeyer.github.io/contact.html</loc>
+    <lastmod>2026-05-28T11:16:31.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Kobe-De-Maeyer.github.io/about.html</loc>
+    <lastmod>2026-05-28T11:16:31.613Z</lastmod>
   </url>
   <url>
     <loc>https://Kobe-De-Maeyer.github.io/research.html</loc>
-    <lastmod>2026-05-28T11:12:13.578Z</lastmod>
+    <lastmod>2026-05-28T11:16:31.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Kobe-De-Maeyer.github.io/scicomm.html</loc>
+    <lastmod>2026-05-28T11:16:31.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Kobe-De-Maeyer.github.io/cv.html</loc>
+    <lastmod>2026-05-28T11:16:31.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Kobe-De-Maeyer.github.io/index.html</loc>
+    <lastmod>2026-05-28T11:16:31.659Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Kobe-De-Maeyer.github.io/posts/meettheprofessor2026.html</loc>
+    <lastmod>2026-05-28T11:16:31.662Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Kobe-De-Maeyer.github.io/projects/crop-models.html</loc>
+    <lastmod>2026-05-28T11:16:31.664Z</lastmod>
   </url>
 </urlset>
