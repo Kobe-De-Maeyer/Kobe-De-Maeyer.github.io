@@ -19,6 +19,8 @@ bibliography: references.bib
 -->
 ```
 
+<p style="text-align: justify;">
+
 Vienna in May. Around 20,000 earth scientists in one massive conference complex for a week. Overwhelming for sure, stressful definitely, but at the same time a powerful reminder that this community exists, that it is enormous, and that the work matters. Perhaps now more than ever, when climate change has quietly slipped from the headlines, science funding is under threat, and the world's largest economy has decided to look the other way. This year's edition was the very first time for me at EGU, and by far not the last, I guess.
 
 Thursday, I had the opportunity to present my work on "Tracing moisture pathways to understand AMOC-Amazon tipping interactions". Long story (well, actually only 8 minutes) short: what I showed is that under substantial AMOC[^1] weakening the internal moisture recycling feedback[^2] over the Amazon seems to rewire. Such a spatial reorganization of this crucial feedback may then fundamentally change the forest connectivity across the Amazon basin and the associated potential for cascading effects from large vegetation disturbances such as deforestation or extreme droughts. These are still preliminary results, but they hint that the interaction may be more nuanced than a simple "stabilising versus destabilising" story. I am very grateful for everyone who stayed around until 6pm for my talk and for all the inspiring discussions, ideas, and new grounds for collaboration.
@@ -28,6 +30,8 @@ Thursday, I had the opportunity to present my work on "Tracing moisture pathways
 [^2]: The moisture recycling feedback, also called the rainfall-vegetation feedback, is one of the key mechanisms sustaining the Amazon rainforest. Trees release water vapour through their leaves, which rises, condenses, and falls again as rain, often hundreds of kilometres away. The forest, in other words, partly generates its own rain, linking distant parts of the basin into one deeply connected system. Studies suggest up to around 50% of Amazon rainfall is recycled this way. This means that large-scale deforestation does not just remove trees: it weakens the very mechanism that keeps the forest further downwind alive, affecting the system as a whole rather than just the local patches. 
 
 Beyond the excitement of giving my first big conference presentation, EGU also meant 5 days of talks across sessions I would never normally encounter. Here are some of my personal take-aways I think should not just stay within the Earth system science community.
+
+</p>
 
 :::: {.columns}
 ::: {.column width="47%"}
