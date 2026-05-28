@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Feel free to reach out with questions, ideas, suggestions or potential grounds for collaboration!"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "Get in touch",
+    "text": "Get in touch\n\nEmail: k.h.m.demaeyer@uu.nl\nGitHub: Kobe-De-Maeyer\nLinkedIn: kobe-de-maeyer\nORCID: 0009-0000-7704-6187\nGoogle Scholar: profile\nUniversity website: website\n\nThis site is built with Quarto."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "👋 Hi, I’m Kobe",
+    "section": "",
+    "text": "I’m a PhD candidate based in Utrecht, at the Copernicus Institute of Sustainable Development, studying Earth system resilience and (interacting) climate tipping points. I am supervised by Prof. dr. ir. Max Rietkerk, Dr. Arie Staal, Prof. dr. ir. Henk Dijkstra and Dr. Robbin Bastiaansen. In close collaboration with Chiara Stanchieri, another doctoral researcher hosted by IMAU, we investigate critical interactions between the Amazon rainforest and the Atlantic Meridional Overturning Circulation (AMOC). Our research is embedded within the EMBRACER consortium, a 10-year programme on Earth System feedbacks funded by the Summit grant from the Dutch Research Council NWO.\nI hold a B.Sc. in Geography from KU Leuven and a M.Sc. in Climate, Earth, Water, and Sustainability from the University of Potsdam. During my M.Sc. I worked as a research assistant and completed my thesis at the Potsdam Institute for Climate Impact Research (PIK).\nOutside of science, I am active in YOUCA and Globelink, two Belgian youth organisations working on sustainability and global justice. I also enjoy writing (science/climate) fiction stories and engaging the public on climate risks, keep an eye on my Science communication page for more on that."
+  },
+  {
+    "objectID": "index.html#latest-news",
+    "href": "index.html#latest-news",
+    "title": "👋 Hi, I’m Kobe",
+    "section": "🗞 Latest news",
+    "text": "🗞 Latest news\n\n\n \n    \n      May\n      2026\n    \n    \n      Event\n      EGU2026 General Assembly in Vienna\n       Presented my work in the session, Earth resilience in the Anthropocene: from tipping points to planetary boundaries and human-Earth system interactions\n      \n  \n      \n    \n  \n\n  \n    \n      Sep\n      2025\n    \n    \n      Milestone\n      Started PhD at the Copernicus Institute, Utrecht University\n      Joined the EMBRACER consortium as a doctoral researcher, working on AMOC–Amazon tipping interactions.\n      \n  \n      \n    \n  \n\n\nSee all news & events →"
+  },
+  {
     "objectID": "projects/amoc-amazon.html",
     "href": "projects/amoc-amazon.html",
     "title": "The interaction between the Amazon rainforest and the AMOC",
@@ -28,6 +63,69 @@
     "text": "Funding and context\nThis project is funded by EMBRACER, a 10-year Dutch research programme funded by the NWO summit grant focused on Earth system feedbacks. I am supervised by Prof. Max Rietkerk, Dr. Arie Staal, Prof. Henk Dijkstra, and Dr. Robbin Bastiaansen.\n\n  More on EMBRACER ↗"
   },
   {
+    "objectID": "projects/crop-models.html",
+    "href": "projects/crop-models.html",
+    "title": "Evaluating crop model performance under climate extremes",
+    "section": "",
+    "text": "Collaboration · ISIMIP & AgMIP"
+  },
+  {
+    "objectID": "projects/crop-models.html#overview",
+    "href": "projects/crop-models.html#overview",
+    "title": "Evaluating crop model performance under climate extremes",
+    "section": "Overview",
+    "text": "Overview\nGlobal Gridded Crop Models (GGCMs) are among the key tools used to project how agricultural yields and food security may change under climate change. Their outputs inform policymakers and adaptation planners, which makes it important to understand how well they actually perform for their intended purposes, especially given the large uncertainty in their future projections (Rosenzweig et al. 2014).\nModel intercomparison projects like ISIMIP and AgMIP create a rare opportunity for systematic assessment: by running multiple models under standardized protocols, they allow researchers to disentangle model uncertainty from forcing uncertainty, and to identify systematic biases or structural differences in how models represent crop responses.\nThis collaboration, which began during my time as a student assistant researcher at PIK, focuses on evaluating GGCM performance specifically under climate extremes, the conditions that drive tail risks for food systems and whose frequency and intensity are expected to rise under global warming. Because GGCMs are designed as global models and are used to inform food security policy worldwide, we evaluate performance across the full globe rather than focusing on major producing countries as most studies do. By doing so, we can probe whether model skill varies geographically and what that means for food security projections also in more climate-vulnerable regions that arguably need reliable projections most."
+  },
+  {
+    "objectID": "projects/crop-models.html#approach",
+    "href": "projects/crop-models.html#approach",
+    "title": "Evaluating crop model performance under climate extremes",
+    "section": "Approach",
+    "text": "Approach\nWe assess how well GGCMs reproduce observed crop yield responses to heat stress, drought, and excessive rainfall, using ISIMIP simulation outputs and an observational benchmark. For the latter, we use a globally gridded product (GDHY; (Iizumi and Sakai 2020)) that combines (sub)national reports from FAO with remote sensing data, making it possible to evaluate model performance at the grid cell level on a global scale rather than at national or aggregate level. This comes with its own uncertainties that need to be taken into account, particularly in how well the benchmark itself reflects real-world yields."
+  },
+  {
+    "objectID": "projects/crop-models.html#status",
+    "href": "projects/crop-models.html#status",
+    "title": "Evaluating crop model performance under climate extremes",
+    "section": "Status",
+    "text": "Status\nThis is an ongoing collaboration with former colleagues at PIK. A paper is currently under review at Nature Climate Change. Stay tuned for further information on the methodology and results.\n\n  ISIMIP website and repository ↗"
+  },
+  {
+    "objectID": "posts/egu2026.html",
+    "href": "posts/egu2026.html",
+    "title": "Updates from EGU2026 General Assembly",
+    "section": "",
+    "text": "Vienna in May. Around 20,000 earth scientists in one massive conference complex for a week. Overwhelming for sure, stressful definitely, but at the same time a powerful reminder that this community exists, that it is enormous, and that the work matters. Perhaps now more than ever, when climate change has quietly slipped from the headlines, science funding is under threat, and the world’s largest economy has decided to look the other way. This year’s edition was the very first time for me at EGU, and by far not the last, I guess.\nThursday, I had the opportunity to present my work on “Tracing moisture pathways to understand AMOC-Amazon tipping interactions”. Long story (well, actually only 8 minutes) short: what I showed is that under substantial AMOC1 weakening the internal moisture recycling feedback2 over the Amazon seems to rewire. Such a spatial reorganization of this crucial feedback may then fundamentally change the forest connectivity across the Amazon basin and the associated potential for cascading effects from large vegetation disturbances such as deforestation or extreme droughts. These are still preliminary results, but they hint that the interaction may be more nuanced than a simple “stabilising versus destabilising” story. I am very grateful for everyone who stayed around until 6pm for my talk and for all the inspiring discussions, ideas, and new grounds for collaboration.\nBeyond the excitement of giving my first big conference presentation, EGU also meant 5 days of talks across sessions I would never normally encounter. Here are some of my personal take-aways I think should not just stay within the Earth system science community."
+  },
+  {
+    "objectID": "posts/egu2026.html#take-aways",
+    "href": "posts/egu2026.html#take-aways",
+    "title": "Updates from EGU2026 General Assembly",
+    "section": "Take-aways",
+    "text": "Take-aways\n\nAMOC shutdown no longer a low likelihood event? In an overcrowded room, Stefan Rahmstorf gave a solicited talk on “AMOC tipping risk reconsidered”. His central message: in all climate models where Drijfhout et al. (2025) found an AMOC shutdown by 2300, AMOC strength had already dropped below 10 Sverdrups (Sv) by 2100, suggesting 10 Sv may act as a critical threshold beyond which weakening becomes self-reinforcing. Portmann et al. (2026), using observation-constrained model projections, estimated AMOC reaching ~8.1 Sv by 2100 under medium-to-high emissions, which would already breach that threshold. Whether 10 Sv truly marks a tipping point remains uncertain and actively debated, but the broader trend is clear: evidence has been steadily accumulating that an AMOC collapse is less unlikely than we once thought. The question is no longer whether to take this seriously, but how seriously.\nClimate models struggle with (tropical) land-atmosphere interactions. Observational evidence shows tropical regions are getting drier, but our ability to project future change depends on models that can capture the underlying processes. Two talks from different sessions suggest they still can’t sufficiently. Andrew Chingos showed that models systematically underestimate future tropical land drying, pointing to a fundamental gap in how land-atmosphere feedbacks are represented. Dominick Spracklen zoomed in on one key process: moisture recycling over tropical forests. Satellite data from 2001–2024 show clear precipitation declines downwind of deforested areas, yet models disagree sharply on the sign of the response, some even showing precipitation increases, others capturing a decline but likely for the wrong reasons.\nDeforestation and climate change are a more dangerous cocktail for the Amazon than previously thought. Two talks in the tipping points session brought sobering new numbers. Nico Wunderling showed that without deforestation, Amazon stability only breaks down beyond ~3.7–4.0°C of warming, but combine 1.5–2.0°C with 20–30% deforestation, then 62–77% of the remaining forest would transition to a degraded state (Wunderling et al. 2026). Lucas Ferreira Correa isolated the compound effect using a comprehensive climate model: 25% deforestation alone stresses ~70% of the remaining forest, but adding 2°C of warming pushes that to 89%, more than what 50% deforestation causes on its own. The takeaway: the effects of deforestation and warming on the Amazon rainforest amplify each other nonlinearly."
+  },
+  {
+    "objectID": "posts/egu2026.html#footnotes",
+    "href": "posts/egu2026.html#footnotes",
+    "title": "Updates from EGU2026 General Assembly",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAMOC stands for “Atlantic Meridional Overturning Circulation”: a large-scale ocean current system that, like a conveyor belt, moves warm Atlantic surface waters from the equator to the poles where they sink and return at higher depths to the south Atlantic. By doing so, it redistributes heat between the northern and southern hemisphere and is therefore crucial for the global climate system.↩︎\nThe moisture recycling feedback, also called the rainfall-vegetation feedback, is one of the key mechanisms sustaining the Amazon rainforest. Trees release water vapour through their leaves, which rises, condenses, and falls again as rain, often hundreds of kilometres away. The forest, in other words, partly generates its own rain, linking distant parts of the basin into one deeply connected system. Studies suggest up to around 50% of Amazon rainfall is recycled this way. This means that large-scale deforestation does not just remove trees: it weakens the very mechanism that keeps the forest further downwind alive, affecting the system as a whole rather than just the local patches.↩︎"
+  },
+  {
+    "objectID": "scicomm.html",
+    "href": "scicomm.html",
+    "title": "Science communication",
+    "section": "",
+    "text": "All\n  Fiction stories\n  PhD life and research updates\n  Explainers\n\n\n\n\n\n\n  \n   \n    \n      PhD life and research updates\n      Updates from EGU2026 General Assembly \n      Some of my personal highlights and take-aways from this year's conference edition.\n    \n  \n  \n  \n   \n    \n      PhD life and research updates\n      Meet The Professor 2026 \n      Teaching the concept of tipping points and climate change to 10-year olds."
+  },
+  {
+    "objectID": "posts/meettheprofessor2026.html",
+    "href": "posts/meettheprofessor2026.html",
+    "title": "Meet The Professor 2026",
+    "section": "",
+    "text": "A few weeks back, I participated in “Meet the Professor”, where researchers from across Utrecht University visit local primary schools to give kids a more honest and diverse picture of what science actually looks like. Before we even started, we were met with a reasonable question from the audience: “Are you real scientists? Why don’t you wear white lab jackets?” Fair point.\nWe were there to talk about tipping points and climate change, not the easiest concepts to explain to a classroom of 10-year olds. So besides some slides, we handed out Towers of Pisa (the classic game). In groups, the kids built their towers and investigated what made them more or less stable: what factors help a tower resist collapse, how do you even measure stability, and how do you set up a fair experiment to test your idea? Without realising it, they were doing real science: forming hypotheses, isolating variables, and grappling with the question of what it means for a system to be resilient.\nThe parallel to climate tipping points wrote itself. Just like a tower has a threshold beyond which it topples, the Earth’s climate system has potential tipping elements: the Amazon rainforest, the Greenland ice sheet, the ocean circulation, that can shift abruptly and irreversibly once pushed too far. And just like with the towers, the question of how close we are to that point turns out to be surprisingly hard to answer.\nBy showing up in classrooms together with colleagues from all corners of the university, we hope to offer kids a more realistic picture of science: messy, collaborative, full of uncertainty, and not always with a lab coat in sight."
+  },
+  {
     "objectID": "projects/toad.html",
     "href": "projects/toad.html",
     "title": "TOAD: Tipping and Other Abrupt events Detector",
@@ -54,83 +152,6 @@
     "title": "TOAD: Tipping and Other Abrupt events Detector",
     "section": "Status",
     "text": "Status\nTOAD v1.0.0 is publicly available on GitHub. A companion paper describing the framework has been submitted to Geoscientific Model Development (GMD) and is now out as preprint.\n\n  Start working with TOAD ↗"
-  },
-  {
-    "objectID": "posts/egu2026.html",
-    "href": "posts/egu2026.html",
-    "title": "Updates from EGU2026 General Assembly",
-    "section": "",
-    "text": "Vienna in May. Around 20,000 earth scientists in one massive conference complex for a week. Overwhelming for sure, stressful definitely, but at the same time a powerful reminder that this community exists, that it is enormous, and that the work matters. Perhaps now more than ever, when climate change has quietly slipped from the headlines, science funding is under threat, and the world’s largest economy has decided to look the other way. This year’s edition was the very first time for me at EGU, and by far not the last, I guess.\nThursday, I had the opportunity to present my work on “Tracing moisture pathways to understand AMOC-Amazon tipping interactions”. Long story (well, actually only 8 minutes) short: what I showed is that under substantial AMOC1 weakening the internal moisture recycling feedback2 over the Amazon seems to rewire. Such a spatial reorganization of this crucial feedback may then fundamentally change the forest connectivity across the Amazon basin and the associated potential for cascading effects from large vegetation disturbances such as deforestation or extreme droughts. These are still preliminary results, but they hint that the interaction may be more nuanced than a simple “stabilising versus destabilising” story. I am very grateful for everyone who stayed around until 6pm for my talk and for all the inspiring discussions, ideas, and new grounds for collaboration.\nBeyond the excitement of giving my first big conference presentation, EGU also meant 5 days of talks across sessions I would never normally encounter. Here are some of my personal take-aways I think should not just stay within the Earth system science community."
-  },
-  {
-    "objectID": "posts/egu2026.html#take-aways",
-    "href": "posts/egu2026.html#take-aways",
-    "title": "Updates from EGU2026 General Assembly",
-    "section": "Take-aways",
-    "text": "Take-aways\n\nAMOC shutdown no longer a low likelihood event? In an overcrowded room, Stefan Rahmstorf gave a solicited talk on “AMOC tipping risk reconsidered”. His central message: in all climate models where Drijfhout et al. (2025) found an AMOC shutdown by 2300, AMOC strength had already dropped below 10 Sverdrups (Sv) by 2100, suggesting 10 Sv may act as a critical threshold beyond which weakening becomes self-reinforcing. Portmann et al. (2026), using observation-constrained model projections, estimated AMOC reaching ~8.1 Sv by 2100 under medium-to-high emissions, which would already breach that threshold. Whether 10 Sv truly marks a tipping point remains uncertain and actively debated, but the broader trend is clear: evidence has been steadily accumulating that an AMOC collapse is less unlikely than we once thought. The question is no longer whether to take this seriously, but how seriously.\nClimate models struggle with (tropical) land-atmosphere interactions. Observational evidence shows tropical regions are getting drier, but our ability to project future change depends on models that can capture the underlying processes. Two talks from different sessions suggest they still can’t sufficiently. Andrew Chingos showed that models systematically underestimate future tropical land drying, pointing to a fundamental gap in how land-atmosphere feedbacks are represented. Dominick Spracklen zoomed in on one key process: moisture recycling over tropical forests. Satellite data from 2001–2024 show clear precipitation declines downwind of deforested areas, yet models disagree sharply on the sign of the response, some even showing precipitation increases, others capturing a decline but likely for the wrong reasons.\nDeforestation and climate change are a more dangerous cocktail for the Amazon than previously thought. Two talks in the tipping points session brought sobering new numbers. Nico Wunderling showed that without deforestation, Amazon stability only breaks down beyond ~3.7–4.0°C of warming, but combine 1.5–2.0°C with 20–30% deforestation, then 62–77% of the remaining forest would transition to a degraded state (Wunderling et al. 2026). Lucas Ferreira Correa isolated the compound effect using a comprehensive climate model: 25% deforestation alone stresses ~70% of the remaining forest, but adding 2°C of warming pushes that to 89%, more than what 50% deforestation causes on its own. The takeaway: the effects of deforestation and warming on the Amazon rainforest amplify each other nonlinearly."
-  },
-  {
-    "objectID": "posts/egu2026.html#footnotes",
-    "href": "posts/egu2026.html#footnotes",
-    "title": "Updates from EGU2026 General Assembly",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAMOC stands for “Atlantic Meridional Overturning Circulation”: a large-scale ocean current system that, like a conveyor belt, moves warm Atlantic surface waters from the equator to the poles where they sink and return at higher depths to the south Atlantic. By doing so, it redistributes heat between the northern and southern hemisphere and is therefore crucial for the global climate system.↩︎\nThe moisture recycling feedback, also called the rainfall-vegetation feedback, is one of the key mechanisms sustaining the Amazon rainforest. Trees release water vapour through their leaves, which rises, condenses, and falls again as rain, often hundreds of kilometres away. The forest, in other words, partly generates its own rain, linking distant parts of the basin into one deeply connected system. Studies suggest up to around 50% of Amazon rainfall is recycled this way. This means that large-scale deforestation does not just remove trees: it weakens the very mechanism that keeps the forest further downwind alive, affecting the system as a whole rather than just the local patches.↩︎"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News & events",
-    "section": "",
-    "text": "May\n      2026\n    \n    \n      Event\n      EGU2026 General Assembly in Vienna\n       Presented my work in the session, Earth resilience in the Anthropocene: from tipping points to planetary boundaries and human-Earth system interactions\n      \n  \n      \n    \n  \n\n  \n    \n      Sep\n      2025\n    \n    \n      Milestone\n      Started PhD at the Copernicus Institute, Utrecht University\n      \n        Officially joined the EMBRACER consortium as a doctoral researcher, working on AMOC–Amazon tipping interactions and their spatial heterogeneities under the supervision of Prof. Max Rietkerk and Dr. Arie Staal."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Feel free to reach out with questions, ideas, suggestions or potential grounds for collaboration!"
-  },
-  {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact",
-    "section": "Get in touch",
-    "text": "Get in touch\n\nEmail: k.h.m.demaeyer@uu.nl\nGitHub: Kobe-De-Maeyer\nLinkedIn: kobe-de-maeyer\nORCID: 0009-0000-7704-6187\nGoogle Scholar: profile\nUniversity website: website\n\nThis site is built with Quarto."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "The Earth system is complex, nonlinear, and full of surprises, and I find that deeply fascinating, yet also worrying. Right now, we are running an uncontrolled climate experiment on a system we do not fully understand, with feedback loops that can rewire themselves in ways that are abrupt, far-reaching, and difficult to reverse. My research sits at the intersection of climate tipping points, feedback mechanisms, and the uncertainties that emerge when different parts of the Earth system interact.\n  \n  \n  To study this, I work across the Climate Model Hierarchy: from comprehensive Earth System Models to stylised conceptual approaches, using a combination of mathematical, numerical, and data analysis methods. Wisely combining these levels of complexity is how I try to build a truthful picture of the risks we are actually facing, and understand a system that will keep surprising us."
-  },
-  {
-    "objectID": "research.html#projects",
-    "href": "research.html#projects",
-    "title": "Research",
-    "section": "Projects",
-    "text": "Projects\n\n\n  \n\n  \n    \n    \n      PhD project · EMBRACER\n      The interaction between the Amazon rainforest and the AMOC\n      The Amazon rainforest and the Atlantic Meridional Overturning Circulation (AMOC) are identified as two potential climate tipping elements that may also interact. My PhD focuses on the AMOC→Amazon pathway: how AMOC weakening may alter the Amazon's internal moisture recycling feedback, changing how different parts of the basin are connected to each other.\n      \n        Read more ↗\n      \n    \n  \n\n  \n    \n    \n      MSc thesis · Open source tool\n      TOAD: Tipping and Other Abrupt events Detector\n      During my MSc thesis at PIK, I contributed to developing TOAD, a modular and open-source pipeline for detecting abrupt transitions and tipping dynamics in complex Earth system datasets, designed to work across model intercomparison contexts like TIPMIP.\n      \n        Read more ↗\n      \n    \n  \n\n  \n    \n    \n      Collaboration · ISIMIP & AgMIP\n      Evaluating crop model performance under climate extremes\n      An ongoing collaboration evaluating how well Global Gridded Crop Models reproduce crop responses under climate extremes, using ISIMIP and AgMIP intercomparison data. Started during my time as a student assistant researcher at PIK.\n      \n        Read more ↗"
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\n\n  \n\n  \n    \n      (preprint) TOAD v1. 0: A Python Framework for Detecting Abrupt Shifts and Coherent Spatial Domains in Earth-System Data\n      Jakob Harteg, Lukas Röhrich, Kobe De Maeyer, Julius Garbe, Boris Sakschewski, Ann Kristin Klose, Jonathan F Donges, Ricarda Winkelmann, Sina Loriani. · submitted to Geoscientific Model Development (GMD)\n      TOAD is a software tool that helps scientists find and compare abrupt shifts in climate model data making it easier to identify where and when parts of the Earth system might be approaching a tipping point.\n    \n    2026"
-  },
-  {
-    "objectID": "scicomm.html",
-    "href": "scicomm.html",
-    "title": "Science communication",
-    "section": "",
-    "text": "All\n  Fiction stories\n  PhD life and research updates\n  Explainers\n\n\n\n\n\n\n  \n   \n    \n      PhD life and research updates\n      Updates from EGU2026 General Assembly \n      Some of my personal highlights and take-aways from this year's conference edition.\n    \n  \n  \n  \n   \n    \n      PhD life and research updates\n      Meet The Professor 2026 \n      Teaching the concept of tipping points and climate change to 10-year olds."
   },
   {
     "objectID": "cv.html",
@@ -168,52 +189,31 @@
     "text": "Skills\n\n  \n    Programming\n    R · Python · Julia · (R)Markdown · Quarto · LaTeX\n  \n  \n    Languages\n    \n      Dutch — mother tongue\n      English — C1 (TOEFL 107)\n      French — B2\n      German — B1"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "👋 Hi, I’m Kobe",
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News & events",
     "section": "",
-    "text": "I’m a PhD candidate based in Utrecht, at the Copernicus Institute of Sustainable Development, studying Earth system resilience and (interacting) climate tipping points. I am supervised by Prof. dr. ir. Max Rietkerk, Dr. Arie Staal, Prof. dr. ir. Henk Dijkstra and Dr. Robbin Bastiaansen. In close collaboration with Chiara Stanchieri, another doctoral researcher hosted by IMAU, we investigate critical interactions between the Amazon rainforest and the Atlantic Meridional Overturning Circulation (AMOC). Our research is embedded within the EMBRACER consortium, a 10-year programme on Earth System feedbacks funded by the Summit grant from the Dutch Research Council NWO.\nI hold a B.Sc. in Geography from KU Leuven and a M.Sc. in Climate, Earth, Water, and Sustainability from the University of Potsdam. During my M.Sc. I worked as a research assistant and completed my thesis at the Potsdam Institute for Climate Impact Research (PIK).\nOutside of science, I am active in YOUCA and Globelink, two Belgian youth organisations working on sustainability and global justice. I also enjoy writing (science/climate) fiction stories and engaging the public on climate risks, keep an eye on my Science communication page for more on that."
+    "text": "May\n      2026\n    \n    \n      Event\n      EGU2026 General Assembly in Vienna\n       Presented my work in the session, Earth resilience in the Anthropocene: from tipping points to planetary boundaries and human-Earth system interactions\n      \n  \n      \n    \n  \n\n  \n    \n      Sep\n      2025\n    \n    \n      Milestone\n      Started PhD at the Copernicus Institute, Utrecht University\n      \n        Officially joined the EMBRACER consortium as a doctoral researcher, working on AMOC–Amazon tipping interactions and their spatial heterogeneities under the supervision of Prof. Max Rietkerk and Dr. Arie Staal."
   },
   {
-    "objectID": "index.html#latest-news",
-    "href": "index.html#latest-news",
-    "title": "👋 Hi, I’m Kobe",
-    "section": "🗞 Latest news",
-    "text": "🗞 Latest news\n\n\n \n    \n      May\n      2026\n    \n    \n      Event\n      EGU2026 General Assembly in Vienna\n       Presented my work in the session, Earth resilience in the Anthropocene: from tipping points to planetary boundaries and human-Earth system interactions\n      \n  \n      \n    \n  \n\n  \n    \n      Sep\n      2025\n    \n    \n      Milestone\n      Started PhD at the Copernicus Institute, Utrecht University\n      Joined the EMBRACER consortium as a doctoral researcher, working on AMOC–Amazon tipping interactions.\n      \n  \n      \n    \n  \n\n\nSee all news & events →"
-  },
-  {
-    "objectID": "posts/meettheprofessor2026.html",
-    "href": "posts/meettheprofessor2026.html",
-    "title": "Meet The Professor 2026",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "A few weeks back, I participated in “Meet the Professor”, where researchers from across Utrecht University visit local primary schools to give kids a more honest and diverse picture of what science actually looks like. Before we even started, we were met with a reasonable question from the audience: “Are you real scientists? Why don’t you wear white lab jackets?” Fair point.\nWe were there to talk about tipping points and climate change, not the easiest concepts to explain to a classroom of 10-year olds. So besides some slides, we handed out Towers of Pisa (the classic game). In groups, the kids built their towers and investigated what made them more or less stable: what factors help a tower resist collapse, how do you even measure stability, and how do you set up a fair experiment to test your idea? Without realising it, they were doing real science: forming hypotheses, isolating variables, and grappling with the question of what it means for a system to be resilient.\nThe parallel to climate tipping points wrote itself. Just like a tower has a threshold beyond which it topples, the Earth’s climate system has potential tipping elements: the Amazon rainforest, the Greenland ice sheet, the ocean circulation, that can shift abruptly and irreversibly once pushed too far. And just like with the towers, the question of how close we are to that point turns out to be surprisingly hard to answer.\nBy showing up in classrooms together with colleagues from all corners of the university, we hope to offer kids a more realistic picture of science: messy, collaborative, full of uncertainty, and not always with a lab coat in sight."
+    "text": "The Earth system is complex, nonlinear, and full of surprises, and I find that deeply fascinating, yet also worrying. Right now, we are running an uncontrolled climate experiment on a system we do not fully understand, with feedback loops that can rewire themselves in ways that are abrupt, far-reaching, and difficult to reverse. My research sits at the intersection of climate tipping points, feedback mechanisms, and the uncertainties that emerge when different parts of the Earth system interact.\n  \n  \n  To study this, I work across the Climate Model Hierarchy: from comprehensive Earth System Models to stylised conceptual approaches, using a combination of mathematical, numerical, and data analysis methods. Wisely combining these levels of complexity is how I try to build a truthful picture of the risks we are actually facing, and understand a system that will keep surprising us."
   },
   {
-    "objectID": "projects/crop-models.html",
-    "href": "projects/crop-models.html",
-    "title": "Evaluating crop model performance under climate extremes",
-    "section": "",
-    "text": "Collaboration · ISIMIP & AgMIP"
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\n\n  \n\n  \n    \n    \n      PhD project · EMBRACER\n      The interaction between the Amazon rainforest and the AMOC\n      The Amazon rainforest and the Atlantic Meridional Overturning Circulation (AMOC) are identified as two potential climate tipping elements that may also interact. My PhD focuses on the AMOC→Amazon pathway: how AMOC weakening may alter the Amazon's internal moisture recycling feedback, changing how different parts of the basin are connected to each other.\n      \n        Read more ↗\n      \n    \n  \n\n  \n    \n    \n      MSc thesis · Open source tool\n      TOAD: Tipping and Other Abrupt events Detector\n      During my MSc thesis at PIK, I contributed to developing TOAD, a modular and open-source pipeline for detecting abrupt transitions and tipping dynamics in complex Earth system datasets, designed to work across model intercomparison contexts like TIPMIP.\n      \n        Read more ↗\n      \n    \n  \n\n  \n    \n    \n      Collaboration · ISIMIP & AgMIP\n      Evaluating crop model performance under climate extremes\n      An ongoing collaboration evaluating how well Global Gridded Crop Models reproduce crop responses under climate extremes, using ISIMIP and AgMIP intercomparison data. Started during my time as a student assistant researcher at PIK.\n      \n        Read more ↗"
   },
   {
-    "objectID": "projects/crop-models.html#overview",
-    "href": "projects/crop-models.html#overview",
-    "title": "Evaluating crop model performance under climate extremes",
-    "section": "Overview",
-    "text": "Overview\nGlobal Gridded Crop Models (GGCMs) are among the key tools used to project how agricultural yields and food security may change under climate change. Their outputs inform policymakers and adaptation planners, which makes it important to understand how well they actually perform for their intended purposes, especially given the large uncertainty in their future projections (Rosenzweig et al. 2014).\nModel intercomparison projects like ISIMIP and AgMIP create a rare opportunity for systematic assessment: by running multiple models under standardized protocols, they allow researchers to disentangle model uncertainty from forcing uncertainty, and to identify systematic biases or structural differences in how models represent crop responses.\nThis collaboration, which began during my time as a student assistant researcher at PIK, focuses on evaluating GGCM performance specifically under climate extremes, the conditions that drive tail risks for food systems and whose frequency and intensity are expected to rise under global warming. Because GGCMs are designed as global models and are used to inform food security policy worldwide, we evaluate performance across the full globe rather than focusing on major producing countries as most studies do. By doing so, we can probe whether model skill varies geographically and what that means for food security projections also in more climate-vulnerable regions that arguably need reliable projections most."
-  },
-  {
-    "objectID": "projects/crop-models.html#approach",
-    "href": "projects/crop-models.html#approach",
-    "title": "Evaluating crop model performance under climate extremes",
-    "section": "Approach",
-    "text": "Approach\nWe assess how well GGCMs reproduce observed crop yield responses to heat stress, drought, and excessive rainfall, using ISIMIP simulation outputs and an observational benchmark. For the latter, we use a globally gridded product (GDHY; (Iizumi and Sakai 2020)) that combines (sub)national reports from FAO with remote sensing data, making it possible to evaluate model performance at the grid cell level on a global scale rather than at national or aggregate level. This comes with its own uncertainties that need to be taken into account, particularly in how well the benchmark itself reflects real-world yields."
-  },
-  {
-    "objectID": "projects/crop-models.html#status",
-    "href": "projects/crop-models.html#status",
-    "title": "Evaluating crop model performance under climate extremes",
-    "section": "Status",
-    "text": "Status\nThis is an ongoing collaboration with former colleagues at PIK. A paper is currently under review at Nature Climate Change. Stay tuned for further information on the methodology and results.\n\n  ISIMIP website and repository ↗"
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n\n  \n\n  \n    \n      (preprint) TOAD v1. 0: A Python Framework for Detecting Abrupt Shifts and Coherent Spatial Domains in Earth-System Data\n      Jakob Harteg, Lukas Röhrich, Kobe De Maeyer, Julius Garbe, Boris Sakschewski, Ann Kristin Klose, Jonathan F Donges, Ricarda Winkelmann, Sina Loriani. · submitted to Geoscientific Model Development (GMD)\n      TOAD is a software tool that helps scientists find and compare abrupt shifts in climate model data making it easier to identify where and when parts of the Earth system might be approaching a tipping point.\n    \n    2026"
   }
 ]
