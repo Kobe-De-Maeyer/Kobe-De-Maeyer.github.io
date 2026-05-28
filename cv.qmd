@@ -75,10 +75,6 @@ format: html
   .cv-skills { grid-template-columns: 1fr; }
 }
 </style>
-
-<div class="cv-download">
-  <a href="CV.pdf" target="_blank">↓ Download full PDF</a>
-</div>
 ```
 
 ## Experience
