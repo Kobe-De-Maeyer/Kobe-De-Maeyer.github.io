@@ -3,11 +3,8 @@ title: "👋 Hi, I'm Kobe"
 format: html
 ---
 
-<p style="text-align: justify;">
-
 I'm a PhD candidate based in Utrecht, at the [Copernicus Institute of Sustainable Development](https://www.uu.nl/en/research/copernicus-institute-of-sustainable-development), studying Earth system resilience and (interacting) climate tipping points. I am supervised by [Prof. dr. ir. Max Rietkerk](https://www.uu.nl/medewerkers/MGRietkerk), [Dr. Arie Staal](https://www.uu.nl/medewerkers/AStaal), [Prof. dr. ir. Henk Dijkstra](https://www.uu.nl/medewerkers/HADijkstra) and [Dr. Robbin Bastiaansen](https://bastiaansen.github.io/home.html#general). In close collaboration with [Chiara Stanchieri](https://research-portal.uu.nl/en/persons/chiara-stanchieri/), another doctoral researcher hosted by [IMAU](https://www.uu.nl/en/research/institute-for-marine-and-atmospheric-research-imau), we investigate critical interactions between the Amazon rainforest and the Atlantic Meridional Overturning Circulation (AMOC). Our research is embedded within the [EMBRACER](https://embracer.nl/) consortium, a 10-year programme on Earth System feedbacks funded by the Summit grant from the Dutch Research Council NWO.
 
-</p>
 
 ::: column-margin
 ![](images/personal/university_logo.png){fig-align="center" width=50%}
@@ -17,13 +14,11 @@ I'm a PhD candidate based in Utrecht, at the [Copernicus Institute of Sustainabl
 ![](images/personal/embracer_logo.png){fig-align="center" width=80%}
 :::
 
-<p style="text-align: justify;">
 
 I hold a B.Sc. in Geography from [KU Leuven](https://www.kuleuven.be/opleidingen/bachelor-geowetenschappen) and a M.Sc. in Climate, Earth, Water, and Sustainability from the [University of Potsdam](https://www.uni-potsdam.de/de/umwelt/clews-masters-program). During my M.Sc. I worked as a research assistant and completed my thesis at the [Potsdam Institute for Climate Impact Research (PIK)](https://www.pik-potsdam.de/en).
 
 Outside of science, I am active in [YOUCA](https://www.youca.be/) and [Globelink](https://www.globelink.be/), two Belgian youth organisations working on sustainability and global justice. I also enjoy writing (science/climate) fiction stories and engaging the public on climate risks, keep an eye on my [Science communication](scicomm.qmd) page for more on that. 
 
-</p>
 
 ## 🗞 Latest news
 

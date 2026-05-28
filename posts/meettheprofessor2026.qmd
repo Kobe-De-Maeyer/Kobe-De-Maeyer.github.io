@@ -19,8 +19,6 @@ bibliography: references.bib
 -->
 ```
 
-<p style="text-align: justify;">
-
 A few weeks back, I participated in "Meet the Professor", where researchers from across Utrecht University visit local primary schools to give kids a more honest and diverse picture of what science actually looks like. Before we even started, we were met with a reasonable question from the audience: "Are you real scientists? Why don't you wear white lab jackets?" Fair point.
 
 We were there to talk about tipping points and climate change, not the easiest concepts to explain to a classroom of 10-year olds. So besides some slides, we handed out Towers of Pisa (the classic game). In groups, the kids built their towers and investigated what made them more or less stable: what factors help a tower resist collapse, how do you even measure stability, and how do you set up a fair experiment to test your idea? Without realising it, they were doing real science: forming hypotheses, isolating variables, and grappling with the question of what it means for a system to be resilient.
@@ -28,7 +26,5 @@ We were there to talk about tipping points and climate change, not the easiest c
 The parallel to climate tipping points wrote itself. Just like a tower has a threshold beyond which it topples, the Earth's climate system has potential tipping elements: the Amazon rainforest, the Greenland ice sheet, the ocean circulation, that can shift abruptly and irreversibly once pushed too far. And just like with the towers, the question of how close we are to that point turns out to be surprisingly hard to answer.
 
 By showing up in classrooms together with colleagues from all corners of the university, we hope to offer kids a more realistic picture of science: messy, collaborative, full of uncertainty, and not always with a lab coat in sight.
-
-</p>
 
 {{< video https://www.youtube.com/watch?v=-VxiQOYQgkk >}}

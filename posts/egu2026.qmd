@@ -19,7 +19,6 @@ bibliography: references.bib
 -->
 ```
 
-<p style="text-align: justify;">
 
 Vienna in May. Around 20,000 earth scientists in one massive conference complex for a week. Overwhelming for sure, stressful definitely, but at the same time a powerful reminder that this community exists, that it is enormous, and that the work matters. Perhaps now more than ever, when climate change has quietly slipped from the headlines, science funding is under threat, and the world's largest economy has decided to look the other way. This year's edition was the very first time for me at EGU, and by far not the last, I guess.
 
@@ -31,7 +30,6 @@ Thursday, I had the opportunity to present my work on "Tracing moisture pathways
 
 Beyond the excitement of giving my first big conference presentation, EGU also meant 5 days of talks across sessions I would never normally encounter. Here are some of my personal take-aways I think should not just stay within the Earth system science community.
 
-</p>
 
 :::: {.columns}
 ::: {.column width="47%"}
